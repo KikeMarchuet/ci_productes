@@ -103,7 +103,7 @@ class ProductApp(QMainWindow):
         if resposta == QDialog.Accepted:
 
             # Missatge de confirmació de si realment modifiquem
-            resposta2 = QMessageBox.question(self,"Modificar", 
+            resposta2 = QMessageBox.question(self,"Modificar",
             "Segur que modifiquem el registre?")
 
             # Si accepta, fem el canvi
@@ -131,7 +131,7 @@ class ProductApp(QMainWindow):
         product_id = int(self.ui.tableWidget.item(selected_row, 0).text())
 
         # Missatge de confirmació de si realment borrem
-        resposta = QMessageBox.question(self,"Borrar", 
+        resposta = QMessageBox.question(self,"Borrar",
             "Segur que borrem el registre?")
 
         # Si es vol borrar, procedim
