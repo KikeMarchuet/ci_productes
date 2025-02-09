@@ -30,7 +30,8 @@ class ProductApp(QMainWindow):
         # Configurar el redimensionament de les columnes:
         # Indiquem que la columna del nom (columna 1) s'estiri per omplir l'espai
         self.ui.tableWidget.horizontalHeader().setSectionResizeMode(1, QHeaderView.Stretch)
-        # I que les columnes de preu (columna 2) i quantitat (columna 3) es redimensionin en funció del seu contingut
+        # I que les columnes de preu (columna 2) i quantitat (columna 3)
+        # es redimensionin en funció del seu contingut
         self.ui.tableWidget.horizontalHeader().setSectionResizeMode(2, QHeaderView.ResizeToContents)
         self.ui.tableWidget.horizontalHeader().setSectionResizeMode(3, QHeaderView.ResizeToContents)
 
